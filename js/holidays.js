@@ -1,15 +1,6 @@
-{
-  "holidays": [
-    {
-      "Day": "Monday, May 26",
-      "Holiday": "Memorial Day*",
-      "Date": "26-May-2014"
-    },
-    {
-      "Day": "Thursday, May 29",
-      "Holiday": "Solemnity of the Ascension",
-      "Date": "29-May-2014"
-    },
+var exclusions = {"holidays": [{"Day": "Monday, May 26", "Holiday": "Memorial Day*", "Date": "26-May-2014"},
+    {"Day": "Thursday, May 29", "Holiday": "Solemnity of the Ascension", "Date": "29-May-2014"}, 
+    {"Day": "Thursday, July 31", "Holiday": "A Test Holiday", "Date": "31-July-2014"}, 
     {
       "Day": "Wednesday, June 4",
       "Holiday": "Shavuot",
