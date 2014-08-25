@@ -25,6 +25,7 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="js/vendor/handlebars-1.0.rc.1.min.js"></script>
         
+        
         <script id="stag" type="text/x-handlebars-template">
         <h2 id="answer">{{ answer }}</h2>
         <p id="reason">{{ reason }} </p></script>
@@ -36,6 +37,7 @@
             console.log("ready");
             
             $('#theTarget').append(theTemplate(theData));
+
             
         });
         </script>
@@ -49,7 +51,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Do I Need to Move My Car?</h1>
+        <h1 id="dintmmc-title">Do I Need to Move My Car?</h1>
       </div>
     </div>
 
@@ -57,10 +59,12 @@
       <!-- Example row of columns -->
       <div class="row">
         <div id="theTarget" class="col-md-12">
-          
-          
+        <!-- answer comes here -->  
         </div>
-        If you live in <b>Brooklyn</b>, The <b>Bronx</b>, <b>Manhattan</b>, <b>Queens</b> or <b>Staten Island</b>, you know you have to move your car constantly to comply with <b>alternate-side parking</b> rules.  We'll tell you if today you are off the hook.
+        <p>If you live in <b>Brooklyn</b>, The <b>Bronx</b>, <b>Manhattan</b>, <b>Queens</b> or <b>Staten Island</b>, you know you have to move your car constantly to comply with <b>alternate-side parking</b> rules.  Sometimes those rules are suspended for holidays and unexpected events.  We'll tell you if today you are off the hook.</p>
+
+          
+          
       </div>
 
       <hr>
