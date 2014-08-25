@@ -4,11 +4,14 @@
    Author's custom styles
    ========================================================================== */
 
-.container .h1 {
-    text-align: right;
+#dintmmc-title, #answer, #reason {
+    text-align: center;
 }
 
-
+body {
+    font: Georgia;
+    font-family: serif;   
+}
 
 
 
